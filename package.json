@@ -1,0 +1,29 @@
+{
+  "name": "node-json-equal",
+  "version": "0.1.0",
+  "description": "Recursively checks deep equality between two JSON-like objects (order of array oblivious).",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhavalpowar/node-json-equal.git"
+  },
+  "keywords": [
+    "node",
+    "json",
+    "deep",
+    "equality"
+  ],
+  "author": "Dhaval Powar <dhavalpowar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhavalpowar/node-json-equal/issues"
+  },
+  "homepage": "https://github.com/dhavalpowar/node-json-equal#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
