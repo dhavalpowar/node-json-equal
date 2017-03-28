@@ -2,7 +2,8 @@ node-json-equal
 ===============
 
 Determine deep equality between JSON-like JavaScript objects.
-This module is largely inspired by [deep-equal](https://github.com/substack/node-deep-equal)
+This module is largely inspired by [deep-equal](https://github.com/substack/node-deep-equal).
+
 Another inspiration is [this javascript blog on the typeof keyword](https://javascriptweblog.wordpress.com/2011/08/08/fixing-the-javascript-typeof-operator/)
 
 ## Installation
@@ -50,7 +51,7 @@ Another inspiration is [this javascript blog on the typeof keyword](https://java
 
 ## License
 
-    [MIT](LICENSE)
+[MIT](LICENSE)
  
 ## Release History
 
