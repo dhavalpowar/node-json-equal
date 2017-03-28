@@ -2,6 +2,7 @@ node-json-equal
 ===============
 
 Determine deep equality between JSON-like JavaScript objects.
+Using **opts**, you can compare two arrays irrespective of the ordering of elements.
 This module is largely inspired by [deep-equal](https://github.com/substack/node-deep-equal).
 
 Another inspiration is [this javascript blog on the typeof keyword](https://javascriptweblog.wordpress.com/2011/08/08/fixing-the-javascript-typeof-operator/)
@@ -40,6 +41,13 @@ Another inspiration is [this javascript blog on the typeof keyword](https://java
 
  For more examples, check out [tests](test/index.js)
 
+## Options
+
+    ```javascript
+    {
+        arrayOrder: true | false // Defaults to true. If set to false, will test equality irrespective of the order of elements inside the array
+    }
+    ```
 ## Tests
 
     npm test
