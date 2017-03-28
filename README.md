@@ -42,15 +42,14 @@ Another inspiration is [this javascript blog on the typeof keyword](https://java
  For more examples, check out [tests](test/index.js)
 
 ## Options
-
-    ```javascript
+```javascript
     var options = {
             arrayOrder: false // Defaults to true. If set to false, will test equality irrespective of the order of elements inside the array
     };
 
     equal( [1, 2, 3, 4], [4, 3, 1, 2], options); // true
+```
 
-    ```
 ## Tests
 
     npm test
