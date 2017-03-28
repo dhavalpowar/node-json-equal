@@ -44,9 +44,12 @@ Another inspiration is [this javascript blog on the typeof keyword](https://java
 ## Options
 
     ```javascript
-    {
-        arrayOrder: true | false // Defaults to true. If set to false, will test equality irrespective of the order of elements inside the array
-    }
+    var options = {
+            arrayOrder: false // Defaults to true. If set to false, will test equality irrespective of the order of elements inside the array
+    };
+
+    equal( [1, 2, 3, 4], [4, 3, 1, 2], options); // true
+
     ```
 ## Tests
 
